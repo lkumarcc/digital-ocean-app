@@ -1,8 +1,68 @@
-.ReachUs {
-    text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+
+
+
+.container-addition {
+    /* position: relative; */
     margin-top: 0;
-    background-color: red;
     min-height: 100vh;
   }
 
+.row {
+  margin: auto;
+}
 
+
+
+.column-1{
+  /* position: absolute; */
+  background-color: aqua;
+  top: 0px;
+  left: 0px;
+  /* width: 50%; */
+  min-height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../2contactus.jpg");
+}
+
+
+.column-2{
+  /* position: absolute; */
+  text-align: left;
+  color: #FFFFFF;
+  font-family: Work Sans;
+  background-color: #981817;
+  top: 0px;
+  right: 0px;
+  /* width: 50%; */
+  min-height: 100vh;
+
+}
+
+.lettermargins{
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.name{
+  font-weight: bold;
+}
+
+.ReachUs-Header{
+  font-weight: bold;
+}
+
+.logo{
+  width: 100px;
+  margin: 0 auto;
+}
