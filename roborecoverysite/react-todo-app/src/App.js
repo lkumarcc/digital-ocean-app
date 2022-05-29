@@ -11,9 +11,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar'
 import TodoContainer from './components/TodoContainer';
 import About from './components/About/AboutTodoContainer';
-import Model from './components/Model/ModelTodoContainer';
+import CoreTenets from './components/CoreTenets/CoreTenetsToDoContainer';
 import ReachUs from './components/ReachUs/ReachUsTodoContainer';
 import Donate from './components/Donate/DonateTodoContainer';
+import Teachers from './components/Teachers/TeachersTodoContainer';
 
 
 
@@ -70,9 +71,10 @@ function App() {
         <Routes>
           <Route exact path='/' element={<TodoContainer />} />
           <Route path='/components/About/AboutTodoContainer' element={<About />} />
-          <Route path='/components/Model/ModelTodoContainer' element={<Model />} />
+          <Route path='/components/CoreTenets/CoreTenetsToDoContainer' element={<CoreTenets />} />
           <Route path='/components/ReachUs/ReachUsTodoContainer' element={<ReachUs />} />
           <Route path='/components/Donate/DonateTodoContainer' element={<Donate />} />
+          <Route path='/components/Teachers/TeachersTodoContainer' element={<Teachers />} />
         </Routes>
 
 

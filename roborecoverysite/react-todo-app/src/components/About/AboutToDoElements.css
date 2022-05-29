@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+.header-photo{
+  min-height: 50vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./roborecoveryaboutuspic.JPG");
+}
+
+/* .tenets-photo-one{
+  min-height: 50vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./1coretenetsphoto.jpg");
+}
+
+.tenets-photo-two{
+  min-height: 50vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./2coretenetsphoto.jpg");
+} */
+
+.program-photo{
+min-height: 50vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./legomindstromclear.png");
+  
+}
+
+.our-sponsors-photo{
+    min-height: 50vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./sponsors.jpg");
+  }
+
+  .photo-why-roborecovery{
+    min-height: 50vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./3lego-mindstorms.png");
+  } 
+
+  .footer-container{
+    min-height: 50vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./footerbackground.png");
+  } 
+
+  .content-why-roborecovery{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    font-size: 22px;
+  }
+
+  .container-why-roborecovery{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Work Sans;
+  }
+
+  .header-why-roborecovery{
+    color: #981817;
+    font-weight: bolder;
+  }
+
+
+
+  .program-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .what-our-program-offers{
+    margin-top: 25px;
+    margin-bottom: 75px;
+    font-family: Work Sans;
+    font-size: 20px;
+  }
+
+  .header-program-offers{
+    color: #981817;
+    font-weight: bolder;
+  }
+
+  .our-impact{
+      margin-top: 25px;
+      margin-bottom: 75px;
+      font-family: Work Sans;
+  }
+
+  .footer-container{
+      position: relative;
+  }
+
+.footer{
+    position: absolute;
+    bottom: 20px;
+    text-align: left;
+    color: white;
+}
+
+.our-sponsors{
+  font-family: Work Sans;
+  margin-top: 200px;
+  margin-bottom: 125px;
+  color: #981817;
+  font-weight: bolder;
+}
+
+.list-program-content{
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+
+/* things to do:
+-margins
+-font
+-color
+-fix sponsors: 3 columns 3 6 3
+-fix bottom */
+

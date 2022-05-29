@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+.teachers-image{
+    /* padding-top: 30px;
+    width: 100%;
+    overflow: visible;
+    background-size: cover;
+    background-position: center; */
+    background-image: url("./teacherroborecovery.png"); 
+}
+
+.teachers-background{
+    font-family: Work Sans;
+    /* padding-top: 30px; */
+    width: 100%;
+    overflow: visible;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./background2.png");
+}
+
+.teachers-donate{
+    text-align: left;
+}
+
+.content-teacher-works{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+}
+
+.how-it-works{
+    /* padding-left: 30px; */
+    padding-right: 60px;
+}
+
+.for-teachers{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+    padding-bottom: 100px;   
+}
+
+.for-teachers-header{
+    text-align: left;
+}
+
+.teachers-donate{
+    padding-bottom: 100px;
+}
+
+/* .kits-we-accept-wrapper {
+    padding-top: 30px;
+    width: 100%;
+    overflow: visible;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./backgrounddonate.png");
+} */

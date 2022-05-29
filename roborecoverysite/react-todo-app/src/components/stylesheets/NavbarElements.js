@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
+// import {NavDropdown} from 'react-bootstrap';
 import styled from 'styled-components';
+
 
 export const Nav = styled.nav`
 background: #FFFFFF;
@@ -13,6 +15,8 @@ z-index: 12;
 /* Third Nav */
 /* justify-content: flex-start; */
 `;
+
+// export const NavDropdown = styled.nav;
 
 export const NavLink = styled(Link)`
 color: #981817;
@@ -85,3 +89,4 @@ margin-left: 24px;
 	color: #808080;
 }
 `;
+

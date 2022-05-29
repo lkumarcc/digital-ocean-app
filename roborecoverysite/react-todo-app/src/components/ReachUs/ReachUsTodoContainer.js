@@ -12,7 +12,7 @@ const ReachUs = () => {
   return ( 
 
 
-   <div className="container container-addition" class="container-fluid">
+   <div className="container-fluid container-addition">
 
        <div className="row">
 

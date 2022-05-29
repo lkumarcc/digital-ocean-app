@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TodoContainer from "./components/TodoContainer";
 import About from './components/About/AboutTodoContainer';
-import Model from './components/Model/ModelTodoContainer';
+import CoreTenets from './components/CoreTenets/CoreTenetsToDoContainer';
 import ReachUs from './components/ReachUs/ReachUsTodoContainer';
 import Donate from './components/Donate/DonateTodoContainer';
 import { BrowserRouter } from 'react-router-dom';

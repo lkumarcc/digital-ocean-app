@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+
+
+.container-1{
+    font-family: Work Sans;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.row2{
+    font-family: Work Sans;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+
+.container-2{
+    font-family: Work Sans;
+    /* margin-top: 80px; */
+    margin-bottom: 80px;
+}
+
+
+.kits-header{
+    color: #981817;
+    text-align: center; 
+}
+
+.kits-accept{
+    font-weight: bolder;
+}
+
+.kits-content{
+    text-align: center; 
+}
+
+.container-3{
+    font-family: Work Sans;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.for-teachers{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+
+.donate-teachers-header{
+    color: #981817;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+
+.teacher-works{
+    text-align: center;
+}
+
+.teachers-donate{
+    text-align: center;
+}
+
+.for-donors{
+    margin-top: 30px;
+    margin-bottom: 200px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+
+.donors-works{
+    text-align: center;
+}
+.donors-donate{
+    text-align: center;
+    color: black;
+}
+
+a{
+    color: #981817;
+}
+
+
+.footer-image{
+    text-align: center;
+}
+
+.kits-we-accept-wrapper {
+    padding-top: 30px;
+    width: 100%;
+    overflow: visible;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./backgrounddonate.png");
+    font-size: 20px;
+}
+
+.header-picture-cover {
+    width: 100%;
+    height: 70vh;
+    overflow: visible;
+    opacity: 0.95;
+    background-size: cover;
+    background-position: 0 33%;
+    /* 
+        Note from Nitin: For bigger screen sizes, you may need to adjust background-position
+        via a media-query. This looks good for all screensizes on the Mac though so it's all good
+        for right now
+     */
+     background-image: url("../roborecoverybackground.jpg"); 
+}
