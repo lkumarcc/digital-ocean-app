@@ -14,6 +14,10 @@ const numberheader = {
     fontSize: 18,
   };
 
+  const rowStyleSponsors = {
+      marginBottom: 50,
+  };
+
 const About = () => {
     
   return ( 
@@ -89,12 +93,12 @@ const About = () => {
     <div className="container our-impact">
         <div className="row header-impact">
             <div className="col-sm-12 header-our-impact">
-                <h1 style={{numberheader}}>Our Impact</h1>
+                <h1 className = "our-impact-header">Our Impact:</h1>
             </div>
 
         </div>
 
-        <div className="row row1-sponsors">
+        <div style={rowStyleSponsors} className="row row1-sponsors">
             <div className="col-sm-4 stat-20">
                 <h2 style={numberheader}>20%</h2>
                 <p style={ourimpactsize}>Increase in students’ reported ability to 
@@ -110,7 +114,7 @@ const About = () => {
             </div>
 
             <div className="col-sm-4 stat-90">
-                <h2 style={numberheader}>90%</h2>
+                <h2 style={numberheader}>93%</h2>
                 <p style={ourimpactsize}>Students from ethnicities historically underrepresented 
                     in STEM fields</p>
                 <br></br>
@@ -118,7 +122,7 @@ const About = () => {
 
         </div>
 
-        <div className="row row2-sponsors">
+        <div style={rowStyleSponsors} className="row row2-sponsors">
             <div className="col-sm-6 stat-12">
                 <h1 style={numberheader}>12%</h1>
                 <p style={ourimpactsize}>Increase in students’ reported interest in 
@@ -126,10 +130,38 @@ const About = () => {
             </div>
 
             <div className="col-sm-6 stat-200">
-                <h1 style={numberheader}>$20,000+</h1>
+                <h1 style={numberheader}>$32,000+</h1>
                 <p style={ourimpactsize}>Estimated value of LEGO robotics equipment 
                     available for borrowing.</p>
 
+            </div>
+
+        </div>
+
+        <div style={rowStyleSponsors} className="row row3-sponsors">
+            <div className="col-sm-3 stat-83">
+                <h2 style={numberheader}>83%</h2>
+                <p style={ourimpactsize}>Increase in confidence in computer coding abilities</p>
+                <br></br>
+            </div>
+
+            <div className="col-sm-3 stat-40">
+                <br></br>
+                <h2 style={numberheader}>40%</h2>
+                <p style={ourimpactsize}>Increase in confidence for explaining robots and their real-world applications</p>
+
+            </div>
+
+            <div className="col-sm-3 stat-61">
+                <h2 style={numberheader}>61%</h2>
+                <p style={ourimpactsize}>Increase in ability to explain the engineering design process</p>
+                <br></br>
+            </div>
+
+            <div className="col-sm-3 stat-34">
+                <h2 style={numberheader}>34%</h2>
+                <p style={ourimpactsize}>Increase in confidence in becoming a future engineer</p>
+                <br></br>
             </div>
 
         </div>
@@ -172,7 +204,7 @@ const About = () => {
             <footer className="footer">
                 <h2>Contact Us</h2>
                 <hr></hr>
-                <p>Email: Email: roborecoveryNOLA@gmail.com</p>
+                <p>Email: roborecoveryNOLA@gmail.com</p>
                 <p>Facebook: @roborecoverynola</p>
                 <p>Instagram: @roborecoverynola</p>
                 <p>Twitter: @roborecoverynola</p>

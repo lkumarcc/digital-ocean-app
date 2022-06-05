@@ -1,6 +1,10 @@
 import React from "react"
 import { Button } from 'react-bootstrap';
 import './TodoContainerElements.css';
+
+// ENABLING ACCESSIBLE AND</p>
+//     //     <p>EQUITABLE ROBOTICS EDUCATION
+
 class TodoContainer extends React.Component {
   render() {
     return (
@@ -16,7 +20,7 @@ class TodoContainer extends React.Component {
               <div className="col-sm-12 column-words-main">
                 <h1 className="roborecovery-header-homepage">RoboRecovery</h1>
 
-                <div className="roborecovery-text-homepage">Past Robots for Present Education</div>
+                <div className="roborecovery-text-homepage">Enabling Acessible and Equitable Robotics Education</div>
               </div>
 
             </div>

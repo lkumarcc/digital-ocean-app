@@ -3,6 +3,7 @@ import React from 'react';
 import './DonateTodoElements.css';
 import { Image } from 'react-bootstrap';
 import background from "../roborecoverybackground.jpg";
+import ourmodel from "./RoboRecoveryFlyer(1).png";
 import logo from "../RoboRecoveryLargeLogo.jpg";
 import row1left from "./row1left.png";
 
@@ -12,10 +13,14 @@ Questions to ask Nitin:
 -i don't understad where to put the bootstrap distinctions 
   className vs class
 
-
-*/
-
-
+  footer code
+<div className="row gx-5 footer">
+            <div className="col-sm-12 col-for-image"> 
+            <div className="footer-image">
+              {/* <Image fluid src={logo} class="img-fluid" alt="Responsive image"></Image> 
+  
+ */
+              
 
 const Donate = () => {
   return (
@@ -43,8 +48,11 @@ const Donate = () => {
     <div className="kits-we-accept-wrapper">
       {/* <img className="float-left" src={row1left}></img> */}
       <div className="container container-1"> 
+      <h2 className="roborecovery-title" font-weight = "bold">How To Donate</h2>
+                <hr></hr>
         
           <div className="row gx-5 row2">
+          
 
               <div className="kits col-sm-12"> 
               
@@ -138,13 +146,27 @@ const Donate = () => {
           </div>
         </div>
 
-        <div className="row gx-5 footer">
-            <div className="col-sm-12 col-for-image"> 
-            <div className="footer-image">
-              {/* <Image fluid src={logo} class="img-fluid" alt="Responsive image"></Image> */}
-              </div>
+          {/* model image */}
+          <div className="container model-container">
+            <div className = "row header-model">
+                <h2 className="roborecovery-title" font-weight = "bold">Our Model</h2>
+                <hr></hr>
+            </div>
+            <div className="row model-photo-row">
+
+                <div className="col-sm-12 model-picture-column">
+           
+               <Image fluid src={ourmodel} class="img-fluid" alt="Responsive image">
+                   </Image>
+        
+
+                </div>
+
             </div>
         </div>
+
+
+        
         </div>
       
    

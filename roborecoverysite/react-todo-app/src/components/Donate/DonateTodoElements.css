@@ -16,6 +16,7 @@
     margin-bottom: 30px;
     margin-left: 40px;
     margin-right: 40px; 
+    margin-top: 150px;
 }
 
 .container-2{
@@ -114,5 +115,5 @@ a{
         via a media-query. This looks good for all screensizes on the Mac though so it's all good
         for right now
      */
-     background-image: url("../roborecoverybackground.jpg"); 
+     background-image: url("./donateheaderimage.JPG"); 
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import './CoreTenetsToDoElements.css';
 import { Image } from 'react-bootstrap';
-import background from "./RoboRecoveryFlyer(1).png";
 import coretenetsheader from "./coretenetshomepage.JPG";
 
 const imgStyle = {
@@ -14,13 +13,23 @@ const CoreTenets = () => {
     <div className="model-wrapper">
     <div className="container-fluid overall-Model">
 
-    {/* head picture */}
+    {/* head picture
     <div className = "jumbotron">
         <div class="coretenets-header-cover">
             <Image fluid src={coretenetsheader} style={imgStyle} sclass="img-fluid" alt="Responsive image">
                     </Image>
         </div>
-        </div>
+        </div> */
+
+    // STUFF FOR HOMEPAGE
+    //     <div className="roborecovery-header">
+    //     <p>ENABLING ACCESSIBLE AND</p>
+    //     <p>EQUITABLE ROBOTICS EDUCATION</p>
+    // </div>
+    // <br></br>
+
+
+        }
     
     {/* header content */}
         <div className="container model-header-container">
@@ -28,11 +37,7 @@ const CoreTenets = () => {
             <div className="row model-header-row">
 
                 <div className="col-sm-12 model-header-column">
-                    <div className="roborecovery-header">
-                        <p>ENABLING ACCESSIBLE AND</p>
-                        <p>EQUITABLE ROBOTICS EDUCATION</p>
-                    </div>
-                    <br></br>
+                   
                     <h1 className="roborecovery-title">OUR CORE TENETS</h1>
                     <hr></hr>
 
@@ -89,25 +94,6 @@ const CoreTenets = () => {
     </div>
 
            
-    
-    {/* model image */}
-        <div className="container model-container">
-            <div className = "row header-model">
-                <h1 className="roborecovery-title" font-weight = "bold">OUR MODEL</h1>
-                <hr></hr>
-            </div>
-            <div className="row model-photo-row">
-
-                <div className="col-sm-12 model-picture-column">
-           
-               <Image fluid src={background} class="img-fluid" alt="Responsive image">
-                   </Image>
-        
-
-                </div>
-
-            </div>
-        </div>
 
 
     </div>

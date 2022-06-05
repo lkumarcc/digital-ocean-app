@@ -12,6 +12,14 @@ import { NavbarBrand } from 'react-bootstrap';
 import {TodoContainer} from  ".//TodoContainer";
 import logo from './/RoboRecoveryLogo2.jpg';
 
+{/* <NavDropdown title="Reach Us" id="collasible-nav-dropdown">
+			<NavLink to='/components/ReachUs/ReachUsTodoContainer' activeStyle>
+				Reach Us
+			</NavLink>
+			<NavLink to='/components/Teachers/TeachersTodoContainer' activeStyle>
+				Teachers and Kits
+			</NavLink>
+		</NavDropdown> */}
 
 const brandStyle = {
 	
@@ -36,19 +44,14 @@ return (
 		<NavLink to='/components/CoreTenets/CoreTenetsTodoContainer' activeStyle>
 			Core Tenets
 		</NavLink>
-		<NavDropdown title="Reach Us" id="collasible-nav-dropdown">
-			<NavLink to='/components/ReachUs/ReachUsTodoContainer' activeStyle>
-				Reach Us
-			</NavLink>
-			<NavLink to='/components/Teachers/TeachersTodoContainer' activeStyle>
-				Teachers and Kits
-			</NavLink>
-		</NavDropdown>
+		<NavLink to='/components/ReachUs/ReachUsTodoContainer' activeStyle>
+			Reach Us
+		</NavLink>
 		{/* Second Nav */}
 		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 		</NavMenu>
 		<NavBtn>
-		<NavBtnLink to='/components/Donate/DonateTodoContainer'>Donate</NavBtnLink>
+		<NavBtnLink to='/components/Donate/DonateTodoContainer'>Donate Robotics Kits</NavBtnLink>
 		</NavBtn>
 	</Nav>
 );

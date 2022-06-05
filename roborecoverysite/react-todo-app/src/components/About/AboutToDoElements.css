@@ -107,6 +107,7 @@ min-height: 50vh;
   }
 
 .footer{
+    font-family: Work Sans;
     position: absolute;
     bottom: 20px;
     text-align: left;
@@ -119,6 +120,24 @@ min-height: 50vh;
   margin-bottom: 125px;
   color: #981817;
   font-weight: bolder;
+}
+
+.row1-sponsors{
+  margin-bottom: 50px;
+}
+
+.row2-sponsors{
+  margin-bottom: 50px;
+}
+
+.row3-sponsors{
+  margin-bottom: 50px;
+}
+
+.our-impact-header{
+  font-family: Work Sans;
+  color: #981817;
+  margin-bottom: 75px;
 }
 
 .list-program-content{
