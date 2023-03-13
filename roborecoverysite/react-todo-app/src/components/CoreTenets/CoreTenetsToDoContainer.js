@@ -80,7 +80,7 @@ const CoreTenets = () => {
 
             <div className="col-sm-8 my-auto access-for-all">
 
-                <h2>Here's access:</h2>
+                <h2>Access For All:</h2>
                 <p> Our partners receive all equipment, supplies, and assistance with club
                      leadership in one streamlined package. This avoids thousands of dollars 
                      in costs while also saving the headaches of initiating and coordinating 
